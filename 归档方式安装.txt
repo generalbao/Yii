@@ -1,0 +1,12 @@
+2016年12月5日14:51:57
+
+Yii 是一个高性能的，适用于开发 WEB2.0 应用的 PHP 框架。官方给的有composer安装，有归档文件安装，
+composer是php的管理依赖包的工具，在国内使用要翻墙或者代理。本文不介绍composer安装方法
+
+前台：frontend 目录，后台：backend，官方下载的源码中是缺失配置文件和index.php，需要执行init。!!!!
+
+执行init之前需要确保php>5.4，openssl开启。
+双击 init.bat
+
+会自动执行config和 web/index.php，下载打开frontend/web，已经有了index.php,index-test.php
+浏览器打开 localhost://xxxxx/advanced/fronted/web/index.php  欢迎界面！！！！
