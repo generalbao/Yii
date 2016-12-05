@@ -1,0 +1,16 @@
+2016年12月5日17:29:50
+frontend(前端)  backend(后端)  下面的 controller view model
+访问 frontend 目录下 的 test控制器(testController.php)  haha方法
+localhost://yii/advanced/frontend/web/index.php?r=test/haha
+
+
+cotroller命名规则
+在controllers文件中，文件命名规则为XxxController.php；
+在XxxController.php文件中，方法的命名规则为actionXxxx(){……}
+
+views命名规则：
+如果控制器的名字为Xxxcontroller.php，例如UserController.php,  
+那么应在views文件夹下创建一个名为user的文件夹，这样控制器会自动调用这个视图下的模板文件 
+比如你调用了UserController 里面的loginAction ,要渲染视图,就需要在views下面新建login.php
+
+model命名没有什么要求,不过还是要容易理解
